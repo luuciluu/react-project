@@ -3,11 +3,11 @@ import React from "react";
 import Header from "./common/header/Header";
 import Footer from "./common/footer/Footer";
 
-export default class Layout extends React.Component {
+export default class Javascript extends React.Component {
     constructor() {
         super();
         this.state = {
-            title : "Holi",
+            title : "Javascript",
         };
     }
 
@@ -19,9 +19,9 @@ export default class Layout extends React.Component {
 
         return (
             <div>
-                <Header changeTitle={this.changeTitle.bind(this)} title={this.state.title}/>
-                <Footer/>
+                <h1>javascript</h1>
             </div>
         );
     }
 }
+ // <Header changeTitle={this.changeTitle.bind(this)} title={this.state.title}/>
