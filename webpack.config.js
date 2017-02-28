@@ -1,11 +1,11 @@
 module.exports = {
- entry: './components/main.js', //cual es la entrada de nuestra aplicacion
+ entry: './js/main.js', //cual es la entrada de nuestra aplicacion
  output: {
    filename: 'index.js' //el nombre de nuestro bundle
  },
  devServer: { // opciones para el servidor de desarrollo
    inline: true, // para que se recargue automáticamente cuando cambie un archivo
-   port: 3333 // puerto donde funcionará el servidor
+   port: 8080 // puerto donde funcionará el servidor
  },
  module: {
    loaders: [
